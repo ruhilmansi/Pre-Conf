@@ -14,6 +14,7 @@ import CTASection from './components/CTASection/CTASection';
 import Partners from './components/Partners/Partners';
 import Footer from './components/Footer/Footer';
 import TicketSection from './components/Ticket/TicketSection';
+import LeaderboardPage from './pages/LeaderboardPage';
 
 function HomePage() {
   return (
@@ -42,6 +43,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/ticket" element={<TicketSection />} />
+            <Route path="/leaderboard" element={<LeaderboardPage />} />
           </Routes>
         </main>
         <Footer />

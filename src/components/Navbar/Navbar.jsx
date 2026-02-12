@@ -60,7 +60,7 @@ function Navbar() {
             </button>
             {ambassadorDropdown && (
               <div className={styles.dropdownMenu}>
-                <button onClick={() => handleNavClick('leaderboard')} className={styles.navLink}>Leaderboard</button>
+                <Link to="/leaderboard" className={styles.navLink}>Leaderboard</Link>
               </div>
             )}
           </div>
