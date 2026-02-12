@@ -63,7 +63,7 @@ const Partners = () => {
   { name: "Polkadot", logo: "https://cryptologos.cc/logos/polkadot-new-dot-logo.png" },
   { name: "Arweave", logo: "https://cryptologos.cc/logos/arweave-ar-logo.png" },
   { name: "Filecoin", logo: "https://cryptologos.cc/logos/filecoin-fil-logo.png" },
-  { name: "Devfolio", logo: "/devfolio.jpg" }
+  { name: "Devfolio", logo: "/devfolio-logo.jpg" }
 ];
 
   const loopedPartners = [...partners, ...partners];
